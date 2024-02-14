@@ -1,0 +1,31 @@
+/* *{
+    height: 100vw;
+    width: 100vw;
+} */
+/* nav{
+    position: static;
+} */
+.top{
+    position: static;
+    margin-top: 10vw;
+    background-color: palevioletred;
+}
+ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  p{
+    position: sticky;
+    margin-top: 10vw;
+  }
+  .main {
+    position: relative;
+    top: 50px; 
+    padding: 20px;
+    width: 100vw;
+    height: 500vw;
+  }
+  nav ul {
+    list-style-type: none;
+  }
